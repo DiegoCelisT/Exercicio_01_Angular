@@ -1,1 +1,6 @@
-<p>eu rocks!</p>
+<p>Meu nome é {{ meuNome }}</p>
+<p>Eu sou da cidade maravilhosa de {{ meusOrigens }}</p>
+<p>As coisas que eu mais gosto na vida são: {{ meusGostos }}</p>
+<p> {{ descricaoDaMinhaFoto }} </p>
+<img [src]=cumprimento alt="cumprimento do {{ meuNome }}" width="300px" [style.display] = "Mouse=='ON' ? 'block' : 'none'">
+<img (mouseover)="mouseNoDiego ()" (mouseout)="mouseSemDiego ()" [src]=minhaUrlDaFoto alt="Uma foto do {{ meuNome }}" width="400px">
