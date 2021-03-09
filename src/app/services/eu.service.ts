@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 
 @Injectable({
   providedIn: 'root'
-})
+}) //DCT
 export class EuService {
 
   name: any;
@@ -19,8 +19,8 @@ export class EuService {
     this.Ilove = [
       " as histórias bem contadas",
       " nadar feito um peixe",
-      " a pizza em todas suas formas",
-      " e as nerdices, sim!... star wars, comics e ciência é comigo!",
+      " a pizza com coca-cola",
+      " e as nerdices, sim!... Star Wars, comics e ciência é comigo!",
     ];
     this.photo_description = "Este aí embaixo sou eu, brincando no tancão do AquaRio:";
     this.photo_url = "https://scontent.fsdu5-1.fna.fbcdn.net/v/t1.0-9/55869388_10156719801029024_9185843252572454912_o.jpg?_nc_cat=108&ccb=1-3&_nc_sid=730e14&_nc_ohc=c_rkAWTglZkAX_YO47R&_nc_ht=scontent.fsdu5-1.fna&oh=6510dbf0088fc5f93318a21fcc20ac51&oe=606B358F";
@@ -37,7 +37,7 @@ export class EuService {
   }
 
   getIlove (): any {
-    return this.Ilove
+    return this.Ilove 
   }
 
   getPhotoDescription (): any{

@@ -33,10 +33,7 @@ export class EuComponent implements OnInit {
     this.cumprimento = eu.getGreetings ();
   }
 
-
-
-
-  ngOnInit(): void {
+  ngOnInit(): void {//DCT
   }
 
 }
