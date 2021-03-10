@@ -10,7 +10,6 @@ main{
     font-family: 'Heebo', sans-serif;
 }
 
-
 #HEY{
     position: absolute;
     top: 172px;
@@ -18,3 +17,10 @@ main{
     transform:rotate(-18deg);
 }
 
+#BOO{
+    position: absolute;
+    bottom: 0px;
+    right: 0vw;
+    width: 260px;
+    height: 260px;
+}
