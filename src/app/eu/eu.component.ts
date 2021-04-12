@@ -17,7 +17,7 @@ export class EuComponent implements OnInit {
   fantasminha: any;
   PNGVazio: any;
 
-  //Eventos mouseover e mouseout, deu trabalho mas AMEI!!!!!!!! <3
+  //Eventos mouseover e mouseout, que brincadeira boa..AMEI!!!!!!!! <3
   Mouse: any = "OFF";
   mouseComDiego () {
     this.Mouse = "ON"
